@@ -1,0 +1,680 @@
+# Italian translations for l package.
+# Copyright (C) 2010 THE l'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the l package.
+# Canonical OEM, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: l 10n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-04 21:07+0800\n"
+"PO-Revision-Date: 2012-04-05 11:24+0000\n"
+"Last-Translator: Milo Casagrande <milo.casagrande@gmail.com>\n"
+"Language-Team: Italian\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-06-04 12:16+0000\n"
+"X-Generator: Launchpad (build 15353)\n"
+
+#: ../src/ol_menu.c:119
+msgid "LRC files"
+msgstr "File LRC"
+
+#: ../src/ol_menu.c:125
+msgid "Choose LRC file to assign"
+msgstr "Scegli il file LRC da assegnare"
+
+#: ../src/ol_main.c:61
+msgid ""
+"The level of debug messages to log, can be 'none', 'error', 'debug', or "
+"'info'"
+msgstr ""
+"Il livello di messaggi di debug da registrare, può essere 'nessuno', "
+"'errori', 'debug', o 'info'"
+
+#: ../src/ol_main.c:63
+msgid "Show version information"
+msgstr ""
+
+#: ../src/ol_main.c:153
+msgid "Download failed"
+msgstr "Download non riuscito"
+
+#: ../src/ol_main.c:168
+#, c-format
+msgid "Searching lyrics from %s"
+msgstr ""
+
+#: ../src/ol_main.c:191
+msgid "Cannot create the lyric directory"
+msgstr "Impossibile creare la cartella dei testi"
+
+#: ../src/ol_main.c:207
+msgid "Lyrics not found"
+msgstr "Testi non trovato"
+
+#: ../src/ol_main.c:561
+#, c-format
+msgid "Player is not running. OSD Lyrics exits now.\n"
+msgstr ""
+
+#: ../src/ol_main.c:710
+msgid ""
+"debug level should be one of ``none'', ``error'', ``debug'', or ``info''"
+msgstr ""
+
+#: ../src/ol_main.c:733
+msgid "Another OSD Lyrics is running, exit."
+msgstr "Un altro OSD Lyrics è in esecuzione, esco."
+
+#: ../src/ol_trayicon.c:36 ../src/ol_notify.c:26
+msgid "Unknown title"
+msgstr "Titolo sconosciuto"
+
+#: ../src/ol_trayicon.c:37 ../src/ol_notify.c:27
+msgid "Unknown artist"
+msgstr "Artista sconosciuto"
+
+#: ../src/ol_trayicon.c:71
+msgid "OSD Lyrics"
+msgstr "Testi OSD"
+
+#: ../src/ol_option.c:1631
+msgid "Choose on startup"
+msgstr ""
+
+#. gtk_list_store_append (liststore, &iter);
+#. gtk_list_store_set (liststore, &iter,
+#. 0, "Customize",
+#. 1, "",
+#. -1);
+#: ../src/ol_option.c:1651 ../data/dialogs.glade.h:7
+msgid "Customize"
+msgstr "Personalizza"
+
+#: ../src/ol_option.c:1713
+msgid "Select a folder"
+msgstr "Seleziona una cartella"
+
+#: ../src/ol_lrc_fetch_ttplayer.c:276
+msgid "ttPlayer"
+msgstr ""
+
+#: ../src/ol_lrc_fetch_xiami.c:242
+msgid "Xiami"
+msgstr ""
+
+#: ../src/ol_lrc_candidate_list.c:43
+msgid "Title"
+msgstr "Titolo"
+
+#: ../src/ol_lrc_candidate_list.c:48
+msgid "Artist"
+msgstr "Artista"
+
+#: ../src/ol_search_dialog.c:31
+#, c-format
+msgid "Searching lyrics from %s..."
+msgstr "Ricerco i testi da %s..."
+
+#: ../src/ol_search_dialog.c:32
+msgid "Ooops, no lyric found :("
+msgstr "Ops, nessun testo trovato :("
+
+#: ../src/ol_search_dialog.c:33
+#, c-format
+msgid "%d lyrics found :)"
+msgstr "%d testi trovati :)"
+
+#: ../src/ol_player_chooser.c:249
+msgid "Supported players"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:250
+msgid "All players"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:254 ../src/ol_player_chooser.c:326
+msgid "Choose a player to launch"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:270
+msgid "Use command:"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:275
+msgid "Launch"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:288
+msgid "Remember my choice"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:440
+#, c-format
+msgid "Failed to launch %s"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:450
+#, c-format
+msgid "Launching %s"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:452
+#, c-format
+msgid ""
+"OSD Lyrics is trying to launch and connect to %s. Please wait for a second."
+msgstr ""
+
+#: ../src/ol_player_chooser.c:563
+msgid "There is no supported player running"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:564
+msgid "Please choose a player below to launch"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:568
+#, c-format
+msgid "Fail to launch %s"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:570
+#, c-format
+msgid ""
+"%s is not supported by OSD Lyrics, or not running. Please launch another "
+"player."
+msgstr ""
+
+#: ../src/ol_player_chooser.c:580
+#, c-format
+msgid "Something wrong with %s"
+msgstr ""
+
+#: ../src/ol_player_chooser.c:582
+#, c-format
+msgid ""
+"It is possible that %s has crashed, or it refuse to connect with OSD Lyrics. "
+"Please try launching it again, or launch another player instead."
+msgstr ""
+
+#: ../src/ol_app_info.c:179 ../src/ol_app_info.c:189
+msgid "Unnamed"
+msgstr ""
+
+#: ../src/ol_scroll_window.c:52
+msgid ""
+"Drag to move the window\n"
+"Hold CTRL to seek"
+msgstr ""
+
+#: ../src/ol_scroll_window.c:53
+msgid "Drag to move the window"
+msgstr ""
+
+#: ../data/dialogs.glade.h:1
+msgid "Copyright 2009-2011 The OSD Lyrics project."
+msgstr ""
+
+#: ../data/dialogs.glade.h:2
+msgid ""
+"An OSD lyric show compatible with various media players and supports lyrics "
+"downloading.\n"
+msgstr ""
+"OSD lyric è compatibile con vari lettori multimediali e supporta lo "
+"scaricamento dei testi\n"
+
+#: ../data/dialogs.glade.h:4
+msgid "http://code.google.com/p/osd-lyrics/"
+msgstr "http://code.google.com/p/osd-lyrics/"
+
+#: ../data/dialogs.glade.h:5
+msgid "GPL v3"
+msgstr "GPL v3"
+
+#: ../data/dialogs.glade.h:6
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Davide Lunghi https://launchpad.net/~davide-lunghi\n"
+"  Martino Barbon https://launchpad.net/~martins999\n"
+"  Milo Casagrande https://launchpad.net/~milo\n"
+"  morphine https://launchpad.net/~maledettopc\n"
+"  simone.sandri https://launchpad.net/~lexluxsox"
+
+#: ../data/dialogs.glade.h:8
+msgid "HTTP"
+msgstr ""
+
+#: ../data/dialogs.glade.h:9
+msgid "SOCKS4"
+msgstr ""
+
+#: ../data/dialogs.glade.h:10
+msgid "SOCKS5"
+msgstr ""
+
+#: ../data/dialogs.glade.h:11
+msgid "Always"
+msgstr ""
+
+#: ../data/dialogs.glade.h:12
+msgid "By lines"
+msgstr ""
+
+#: ../data/dialogs.glade.h:13
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: ../data/dialogs.glade.h:14
+msgid "Display mode:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:15
+msgid "OS_D"
+msgstr ""
+
+#: ../data/dialogs.glade.h:16
+msgid "Sc_rolling"
+msgstr ""
+
+#: ../data/dialogs.glade.h:17
+msgid "Auto la_unch player:"
+msgstr "Avvia a_utomaticamente il player:"
+
+#: ../data/dialogs.glade.h:18
+msgid "Pla_yer command:"
+msgstr "Comando Pla_yer"
+
+#: ../data/dialogs.glade.h:19
+msgid "Show _bubble notification"
+msgstr ""
+
+#: ../data/dialogs.glade.h:20
+msgid "_General"
+msgstr "_Generale"
+
+#: ../data/dialogs.glade.h:21
+msgid "_Font:"
+msgstr "Tipo di carattere"
+
+#. The outline width of text in OSD window
+#: ../data/dialogs.glade.h:23
+msgid "Out_line:"
+msgstr "Profilo"
+
+#: ../data/dialogs.glade.h:24
+msgid "_Blur:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:25
+msgid "Weak"
+msgstr ""
+
+#: ../data/dialogs.glade.h:26
+msgid "Strong"
+msgstr ""
+
+#: ../data/dialogs.glade.h:27
+msgid "Lyric lines:"
+msgstr "Riga del testo"
+
+#: ../data/dialogs.glade.h:28
+msgid "Si_ngle line"
+msgstr "Linea singola"
+
+#: ../data/dialogs.glade.h:29
+msgid "_Double lines"
+msgstr "Linea doppia"
+
+#: ../data/dialogs.glade.h:30
+msgid "Mode:"
+msgstr "Modalità:"
+
+#: ../data/dialogs.glade.h:31
+msgid "Doc_k"
+msgstr ""
+
+#: ../data/dialogs.glade.h:32
+msgid "Nor_mal"
+msgstr ""
+
+#: ../data/dialogs.glade.h:33
+msgid "T_ranslucent on mouse over"
+msgstr "Traslucido quando passa il mouse"
+
+#: ../data/dialogs.glade.h:34
+msgid "F_irst line:"
+msgstr "Prima linea"
+
+#: ../data/dialogs.glade.h:35
+msgid "_Second line:"
+msgstr "Seconda linea"
+
+#: ../data/dialogs.glade.h:36
+msgid "<b>Lyric _Alignment</b>"
+msgstr "Allineamento testo"
+
+#: ../data/dialogs.glade.h:37
+msgid "Color _Theme:"
+msgstr "Tema colore"
+
+#: ../data/dialogs.glade.h:38
+msgid "C_ustomize colors"
+msgstr "Personalizza colori"
+
+#: ../data/dialogs.glade.h:39
+msgid "Acti_ve lyrics:"
+msgstr "Testi attivi"
+
+#: ../data/dialogs.glade.h:40
+msgid "top"
+msgstr "Alto"
+
+#: ../data/dialogs.glade.h:41
+msgid "middle"
+msgstr "Medio"
+
+#: ../data/dialogs.glade.h:42
+msgid "bottom"
+msgstr "Basso"
+
+#: ../data/dialogs.glade.h:43
+msgid "Inactiv_e lyrics:"
+msgstr "Testi inattivi"
+
+#: ../data/dialogs.glade.h:44
+msgid "<b>Lyric _Color</b>"
+msgstr "Colore testo"
+
+#: ../data/dialogs.glade.h:45
+msgid "_OSD"
+msgstr "OSD"
+
+#: ../data/dialogs.glade.h:46
+msgid "Ac_tive color:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:47
+msgid "_Inactive color:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:48
+msgid "Scroll _mode:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:49
+msgid "<b>Lyrics</b>"
+msgstr ""
+
+#: ../data/dialogs.glade.h:50
+msgid "Colo_r:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:51
+msgid "O_pacity:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:52
+msgid "Transparent"
+msgstr ""
+
+#: ../data/dialogs.glade.h:53
+msgid "Opaque"
+msgstr ""
+
+#: ../data/dialogs.glade.h:54
+msgid "<b>Background</b>"
+msgstr ""
+
+#: ../data/dialogs.glade.h:55
+msgid "_Scrolling"
+msgstr ""
+
+#: ../data/dialogs.glade.h:57
+#, no-c-format
+msgid "A single \"%\" means the directory where the playing music is."
+msgstr "Un singolo \"%\" significa la cartella dove si trova la musica"
+
+#: ../data/dialogs.glade.h:58
+msgid "<b>_Path</b>"
+msgstr "Percorso"
+
+#: ../data/dialogs.glade.h:60
+#, no-c-format
+msgid ""
+"  %t - Title\n"
+"  %p - Artist\n"
+"  %a - Album\n"
+"  %n - Track number\n"
+"  %f - File name (without extension)"
+msgstr ""
+"  %t - Titolo\n"
+"%p - Artista\n"
+"%a - Album\n"
+"%n - Numero di traccia\n"
+"%f - Nome File (senza estensione)\n"
+"\tNota: \tThere are line breaks here. Each one represents a line break. "
+"Start a new line in the equivalent position in the translation.\n"
+"\tNote: \tThere are leading/trailing spaces here. Each one represents a "
+"space character. Enter a space in the equivalent position in the translation."
+
+#: ../data/dialogs.glade.h:65
+msgid "<b>_Filename</b>"
+msgstr "Nome file"
+
+#: ../data/dialogs.glade.h:66
+msgid "_Lyric Location"
+msgstr "Posizione testo"
+
+#: ../data/dialogs.glade.h:67
+msgid "Lyric _sites:"
+msgstr ""
+
+#. In preference/download, automately download the most matched lyric
+#: ../data/dialogs.glade.h:69
+msgid "Do_wnload the first candidate"
+msgstr "Scarica il primo candidato"
+
+#: ../data/dialogs.glade.h:70
+msgid "<b>Download</b>"
+msgstr ""
+
+#: ../data/dialogs.glade.h:71
+msgid "No _proxy"
+msgstr ""
+
+#: ../data/dialogs.glade.h:72
+msgid "Au_to-detect system settings"
+msgstr ""
+
+#: ../data/dialogs.glade.h:73
+msgid "Use _manual settings"
+msgstr ""
+
+#: ../data/dialogs.glade.h:74
+msgid "_Host:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:75
+msgid "Po_rt:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:76
+msgid "_Type:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:77
+msgid "_Username:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:78
+msgid "Passwo_rd:"
+msgstr ""
+
+#: ../data/dialogs.glade.h:79
+msgid "Show passwor_d"
+msgstr ""
+
+#: ../data/dialogs.glade.h:80
+msgid "<b>Proxy</b>"
+msgstr ""
+
+#: ../data/dialogs.glade.h:81
+msgid "_Network"
+msgstr ""
+
+#: ../data/dialogs.glade.h:82
+msgid "OSD _mode"
+msgstr ""
+
+#: ../data/dialogs.glade.h:83
+msgid "Scrolling _mode"
+msgstr ""
+
+#: ../data/dialogs.glade.h:84
+msgid "If locked, you can't move OSD window by mouse"
+msgstr "se bloccato, non puoi muovere la finestra OSD con il mouse"
+
+#: ../data/dialogs.glade.h:85
+msgid "_Lock Position"
+msgstr "B_locca Posizione"
+
+#: ../data/dialogs.glade.h:86
+msgid "Hide the OSD Window"
+msgstr "Nascondi la finestra OSD"
+
+#: ../data/dialogs.glade.h:87
+msgid "_Hide"
+msgstr "Nascondi"
+
+#: ../data/dialogs.glade.h:88
+msgid "_Search lyric..."
+msgstr "Cerca testo..."
+
+#: ../data/dialogs.glade.h:89
+msgid "Search lyrics from Internet"
+msgstr "Cerca testi da Internet"
+
+#: ../data/dialogs.glade.h:90
+msgid "_Assign lyric..."
+msgstr "_Assegna testo..."
+
+#: ../data/dialogs.glade.h:91
+msgid "Assign local LRC file to current music"
+msgstr "Assegna file locale LRC alla musica corrente"
+
+#: ../data/dialogs.glade.h:92
+msgid "_No lyric"
+msgstr "_Nessun testo"
+
+#: ../data/dialogs.glade.h:93
+msgid "Don't assign lyric to this music"
+msgstr "Non assegnare un testo a questa musica"
+
+#: ../data/dialogs.glade.h:94
+msgid "Lyric delay -"
+msgstr "Ritardo del testo -"
+
+#: ../data/dialogs.glade.h:95
+msgid "Adjust lyrics delay by -0.2 s"
+msgstr "Regola il ritardo del testo di -0,2 s"
+
+#: ../data/dialogs.glade.h:96
+msgid "Lyric delay +"
+msgstr "Ritardo del testo +"
+
+#: ../data/dialogs.glade.h:97
+msgid "Adjust lyric delay by +0.2 s"
+msgstr "Regola il ritardo del testo di +0,2 s"
+
+#: ../data/dialogs.glade.h:98
+msgid "Choose LRC file to download"
+msgstr "Scegli il testo da scaricare"
+
+#: ../data/dialogs.glade.h:99
+msgid "D_on't ask me again"
+msgstr "N_on chiedermelo più"
+
+#: ../data/dialogs.glade.h:100
+msgid ""
+"If there are more than one lrc files matched with the search condition, "
+"download the first one without prompting the user."
+msgstr ""
+"Se piu' di un file Irc combacia con la condizione di ricerca, scarico il "
+"primo senza suggerire l'utente"
+
+#: ../data/dialogs.glade.h:101
+msgid "_Download"
+msgstr "Scarica"
+
+#: ../data/dialogs.glade.h:102
+msgid "The title of the current track"
+msgstr "Il titolo della traccia corrente"
+
+#: ../data/dialogs.glade.h:104
+#, no-c-format
+msgid "%t - Title"
+msgstr "%t - Titolo"
+
+#: ../data/dialogs.glade.h:105
+msgid "The artist of the current track"
+msgstr "L'artista della traccia corrente"
+
+#: ../data/dialogs.glade.h:107
+#, no-c-format
+msgid "%p - Artist"
+msgstr "%p - Artista"
+
+#: ../data/dialogs.glade.h:108
+msgid "The title of album of the current track"
+msgstr "Il titolo dell'album della traccia corrente"
+
+#: ../data/dialogs.glade.h:110
+#, no-c-format
+msgid "%a - Album"
+msgstr "%a - Album"
+
+#: ../data/dialogs.glade.h:111
+msgid "The number of the current track"
+msgstr "Il numero della traccia corrente"
+
+#: ../data/dialogs.glade.h:113
+#, no-c-format
+msgid "%n - Track number"
+msgstr "%n - Numero traccia"
+
+#: ../data/dialogs.glade.h:114
+msgid "The filename of the current track"
+msgstr "Il nome del file della traccia corrente"
+
+#: ../data/dialogs.glade.h:116
+#, no-c-format
+msgid "%f - Filename"
+msgstr "%f - Nome file"
+
+#: ../data/dialogs.glade.h:117
+msgid "Search lyrics"
+msgstr "Cerca testi"
+
+#: ../data/dialogs.glade.h:118
+msgid "_Title:"
+msgstr "_Titolo"
+
+#: ../data/dialogs.glade.h:119
+msgid "_Artist:"
+msgstr "_Artista:"
+
+#: ../data/dialogs.glade.h:120
+msgid "_Search"
+msgstr "Cerca"
+
+#. From witch web site to search and download lyrics
+#: ../data/dialogs.glade.h:122
+msgid "_From:"
+msgstr "_Da:"
+
+#~ msgid "No supported player is running, exit.\n"
+#~ msgstr "Nessun lettore supportato sta andando, uscita\n"
